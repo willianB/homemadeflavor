@@ -98,7 +98,7 @@ const dailyDish = DailyDish(
   description:
       'Ese sabor que te transporta directo a la cocina de abuela. '
       ' Hecha a mano, con ingredientes frescos y el secreto que solo el tiempo enseña. Una mordida y entiendes por qué es un clásico que nunca pasa de moda.',
-  img: 'rellena.jpg',
+  img: 'image/rellena.jpg',
   optionLabel: '¿Con qué salsa las quieres? 🫙',
   options: [
     DishOption(name: 'Ajo',          emoji: '🧄'),
@@ -601,7 +601,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       child: R.box(context, desktop
         ? Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
             Expanded(child: ClipRRect(borderRadius: BorderRadius.circular(24),
-              child: Image.asset('promo.jpg',
+              child: Image.asset('image/promo.jpg',
                 height: 360, fit: BoxFit.cover))),
             const SizedBox(width: 56),
             Expanded(child: _storyText()),
@@ -609,7 +609,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           ])
         : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             ClipRRect(borderRadius: BorderRadius.circular(20),
-              child: Image.asset('promo.jpg',
+              child: Image.asset('image/promo.jpg',
                 height: 220, width: double.infinity, fit: BoxFit.cover)),
             const SizedBox(height: 24),
             _storyText(),
