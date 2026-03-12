@@ -605,6 +605,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                 height: 360, fit: BoxFit.cover))),
             const SizedBox(width: 56),
             Expanded(child: _storyText()),
+            
           ])
         : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             ClipRRect(borderRadius: BorderRadius.circular(20),
