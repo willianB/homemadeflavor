@@ -107,12 +107,10 @@ const dailyDishes = [
     description:
      'Una sola porción… pero cargada de recuerdos.'
         'Ese sabor inconfundible de la cocina de abuela, preparado a mano con ingredientes frescos y el toque especial que solo los años perfeccionan.',
-    img: 'assets/porcion_rellena.png',
+    img: 'assets/rellena_porcion.png',
     optionLabel: '¿Con qué salsa la quieres? 🫙',
     options: [
-      DishOption(name: 'Ajo',          emoji: '🧄'),
-      DishOption(name: 'Miel Mostaza', emoji: '🍯'),
-      DishOption(name: 'Picante',      emoji: '🌶️'),
+      DishOption(name: 'Ají de piña',          emoji: '🌶️'),
     ],
   ),
   DailyDish(
@@ -124,9 +122,11 @@ const dailyDishes = [
     description:
         'Ese sabor que te transporta directo a la cocina de abuela. '
         'Hecha a mano, con ingredientes frescos y el secreto que solo el tiempo enseña.',
-    img: 'assets/rellena.jpg',
+    img: 'assets/rellena_caja.png',
     optionLabel: '',
-    options: [],
+    options: [
+      DishOption(name: 'Ají de piña',          emoji: '🌶️'),
+    ],
   ),
 ];
 
@@ -1790,10 +1790,7 @@ class CertPage extends StatelessWidget {
                 icon: Icons.person_rounded,
                 label: 'Titular',
                 value: 'María Areli Toro'),
-            const _InfoRow(
-                icon: Icons.badge_rounded,
-                label: 'Cédula de ciudadanía',
-                value: '34.568.670'),
+         
             const _InfoRow(
                 icon: Icons.school_rounded,
                 label: 'Formación aprobada',
