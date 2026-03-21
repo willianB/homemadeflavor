@@ -197,7 +197,7 @@ const specialties = [
 // ─────────────────────────────────────────────────────────────
 // WHATSAPP HELPERS
 // ─────────────────────────────────────────────────────────────
-const _waNumber = '573217707182';
+const _waNumber = '573126127844';
 
 Future<void> launchWA(BuildContext context, {String? message}) async {
   final msg = message ?? '¡Hola! Quiero hacer un pedido 😋';
