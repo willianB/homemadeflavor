@@ -102,7 +102,7 @@ const dailyDishes = [
     available: true,
     name: 'Porción de Rellena con papa',
     emoji: '🍖',
-    tag: 'Plato del día · Lunes',
+    tag: 'Plato del día · Viernes',
     price: '7.000',
     description:
      'Una sola porción… pero cargada de recuerdos.'
@@ -119,7 +119,7 @@ const dailyDishes = [
     available: true,
     name: 'Caja de 6 porciones',
     emoji: '🍛',
-    tag: 'Plato del día · Lunes',
+    tag: 'Plato del día · Viernes',
     price: '40.000',
     description:
         'Ese sabor que te transporta directo a la cocina de abuela. '
