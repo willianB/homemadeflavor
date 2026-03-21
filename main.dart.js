@@ -1036,7 +1036,7 @@ s.Ye()
 return s},
 ayq(a){return new A.XI($.af,a)},
 akX(){var s,r,q,p,o,n=A.ay0(v.G.window.navigator)
-if(n==null||n.length===0)return B.nB
+if(n==null||n.length===0)return B.nC
 s=A.c([],t.ss)
 for(r=n.length,q=0;q<n.length;n.length===r||(0,A.z)(n),++q){p=n[q]
 o=p.split("-")
@@ -6896,8 +6896,8 @@ s=B.c.ep((a-2)/1,0,13)
 r=B.j.ep(B.c.ho(s),0,12)
 q=s-r
 p=1-q
-o=B.nF[r]
-n=B.nF[r+1]
+o=B.nG[r]
+n=B.nG[r+1]
 return new A.ab(p*o.a+q*n.a,p*o.b+q*n.b)},
 aD5(a){var s,r,q,p,o,n,m
 if(a>5){s=a-5
@@ -10746,7 +10746,7 @@ aoN(a,b,c){if(b!=null&&!b.i(0,B.T))return A.aoi(b.bd(A.aym(c)),a)
 return a},
 aym(a){var s,r,q,p,o,n
 if(a<0)return 0
-for(s=0;r=B.nC[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.nC[s-1]
+for(s=0;r=B.nD[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.nD[s-1]
 o=p.a
 n=p.b
 return n+(a-o)/(q-o)*(r.b-n)},
@@ -41736,7 +41736,7 @@ n=o.e
 o=o.cx
 r=q.ga5_()
 q.a.toString
-return new A.A8(p,p,p,new A.aep(),p,p,p,p,p,n,B.JR,p,p,p,B.HR,q.ga56(),o,p,B.Q2,s,p,r,p,p,B.nB,!1,!1,p,p,p,new A.nw(q,t.bT))},
+return new A.A8(p,p,p,new A.aep(),p,p,p,p,p,n,B.JR,p,p,p,B.HR,q.ga56(),o,p,B.Q2,s,p,r,p,p,B.nC,!1,!1,p,p,p,new A.nw(q,t.bT))},
 O(a){var s,r=null,q=A.qi(!1,!1,this.Zn(a),r,r,r,r,!0,r,r,r,new A.aeq(),r,r)
 this.a.toString
 s=this.d
@@ -75981,11 +75981,11 @@ b=A.bg(20)
 b=A.b0(j,A.am("\ud83c\udf7d\ufe0f  Hoy preparamos",j,j,j,A.be(12,B.t,1.5,B.Y),j,j),B.m,j,j,new A.b_(c,j,j,b,j,j,B.y),j,j,j,B.DN,j,j,j)
 c=A.am("Platos del d\xeda",j,j,j,A.dk(32,j,1.1),j,j)
 p=A.am("Dos opciones preparadas con todo el amor del d\xeda.",j,j,j,A.be(14,B.a2,1.5,B.l),j,j)
-o=k.IL(a0,B.mq,g)
+o=k.IL(a0,B.mr,g)
 n=A.ct(A.b0(j,j,B.m,A.a2(31,B.t.n()>>>16&255,B.t.n()>>>8&255,B.t.n()&255),j,j,j,1,j,j,j,j,j),1)
 m=A.bg(20)
 l=A.kU(A.a2(51,B.t.n()>>>16&255,B.t.n()>>>8&255,B.t.n()&255),1)
-m=A.iS(a0,A.bX(A.c([b,B.hL,c,B.hN,p,B.yD,o,new A.bf(B.DK,A.bT(A.c([n,new A.bf(B.DQ,A.b0(j,A.am("y tambi\xe9n\u2026",j,j,j,A.be(12,B.a2,1.5,B.bR),j,j),B.m,j,j,new A.b_(B.ce,j,l,m,j,j,B.y),j,j,j,B.iT,j,j,j),j),A.ct(A.b0(j,j,B.m,A.a2(31,B.t.n()>>>16&255,B.t.n()>>>8&255,B.t.n()&255),j,j,j,1,j,j,j,j,j),1)],q),B.A,B.p,B.u),j),k.IL(a0,B.mr,g)],q),B.K,B.p,B.u))
+m=A.iS(a0,A.bX(A.c([b,B.hL,c,B.hN,p,B.yD,o,new A.bf(B.DK,A.bT(A.c([n,new A.bf(B.DQ,A.b0(j,A.am("y tambi\xe9n\u2026",j,j,j,A.be(12,B.a2,1.5,B.bR),j,j),B.m,j,j,new A.b_(B.ce,j,l,m,j,j,B.y),j,j,j,B.iT,j,j,j),j),A.ct(A.b0(j,j,B.m,A.a2(31,B.t.n()>>>16&255,B.t.n()>>>8&255,B.t.n()&255),j,j,j,1,j,j,j,j,j),1)],q),B.A,B.p,B.u),j),k.IL(a0,B.mq,g)],q),B.K,B.p,B.u))
 l=k.aal(a0)
 h=A.bn(a0,j,h).w
 n=A.k9(a0).D8(56)
@@ -75998,7 +75998,7 @@ q=A.bg(12)
 p=A.c([new A.bQ(0,B.ak,A.a2(B.c.an(127.5),B.ag.n()>>>16&255,B.ag.n()>>>8&255,B.ag.n()&255),B.k1,16)],t.V)
 o=t.p
 return A.bX(A.c([l,B.hM,s,B.eR,r,B.yD,A.ek(n,A.b0(n,A.bT(A.c([B.n3,B.eP,A.am("Pedir por WhatsApp",n,n,n,A.be(15,B.e,1.5,B.Y),n,n)],o),B.A,B.p,B.bh),B.m,n,n,new A.b_(B.ag,n,n,q,p,n,B.y),n,n,n,B.E5,n,n,n),B.X,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.adA(a),n,n,n,n,n,n)],o),B.K,B.p,B.bh)},
-a4q(){var s,r,q=null,p=B.b.Q4(B.nG,new A.adx(),new A.ady()),o=A.bg(24),n=A.vb(B.ik,A.qr(p.d,new A.adz(),B.cU,170,270)),m=A.a2(38,B.b5.n()>>>16&255,B.b5.n()>>>8&255,B.b5.n()&255),l=A.bg(8)
+a4q(){var s,r,q=null,p=B.b.Q4(B.nB,new A.adx(),new A.ady()),o=A.bg(24),n=A.vb(B.ik,A.qr(p.d,new A.adz(),B.cU,170,270)),m=A.a2(38,B.b5.n()>>>16&255,B.b5.n()>>>8&255,B.b5.n()&255),l=A.bg(8)
 l=A.b0(q,A.am("\ud83c\udf7d\ufe0f  Plato del d\xeda",q,q,q,A.be(11,B.mf,1.5,B.Y),q,q),B.m,q,q,new A.b_(m,q,q,l,q,q,B.y),q,q,q,B.iS,q,q,q)
 m=A.am(p.a,q,q,q,A.dk(17,q,1.1),q,q)
 s=A.am("$"+p.c,q,q,q,A.be(18,B.t,1.5,B.Y),q,q)
@@ -76016,7 +76016,7 @@ A.adx.prototype={
 $1(a){return!0},
 $S:488}
 A.ady.prototype={
-$0(){return B.b.ga_(B.nG)},
+$0(){return B.b.ga_(B.nB)},
 $S:489}
 A.adz.prototype={
 $3(a,b,c){var s=null
@@ -76173,10 +76173,10 @@ n=A.bg(22)
 m=A.c([new A.bQ(0,B.ak,A.a2(B.c.an(76.5),B.ag.n()>>>16&255,B.ag.n()>>>8&255,B.ag.n()&255),B.k1,20)],t.V)
 return A.alO(A.bX(A.c([j,new A.bf(s,q,l),new A.bf(p,r,l),new A.bf(o,A.iS(a,A.ek(l,A.b0(l,A.bT(A.c([A.b0(l,B.BC,B.m,l,l,new A.b_(A.a2(51,B.e.n()>>>16&255,B.e.n()>>>8&255,B.e.n()&255),l,l,l,l,l,B.dJ),l,52,l,l,l,l,52),B.kz,A.ct(A.bX(A.c([A.am("\xbfCu\xe1l hay hoy?",l,l,l,A.dk(18,B.e,1.1),l,l),B.yF,A.am("Escr\xedbenos y te confirmamos qu\xe9 preparaciones hay disponibles.",l,l,l,A.be(13,B.E,1.5,B.l),l,l)],i),B.K,B.p,B.u),1),B.Fh],i),B.A,B.p,B.u),B.m,l,l,new A.b_(l,l,l,n,m,B.nu,B.y),l,l,l,B.mH,l,l,l),B.X,!1,l,l,l,l,l,l,l,l,l,l,l,l,l,new A.a2M(a),l,l,l,l,l,l)),l)],i),B.K,B.p,B.u))},
 a_E(){var s=t.oL
-s=A.W(new A.X(B.nD,new A.a2K(),s),s.j("ap.E"))
+s=A.W(new A.X(B.nE,new A.a2K(),s),s.j("ap.E"))
 return A.am7(s,20,20)},
 a5k(){var s=t.Vp
-s=A.W(new A.X(B.nD,new A.a2L(),s),s.j("ap.E"))
+s=A.W(new A.X(B.nE,new A.a2L(),s),s.j("ap.E"))
 return A.bX(s,B.A,B.p,B.u)}}
 A.a2M.prototype={
 $0(){return A.jk(this.a,"\xa1Hola! Quiero saber qu\xe9 preparaciones tienen disponibles hoy \ud83d\ude0a")},
@@ -79179,8 +79179,8 @@ B.y=new A.Fa(0,"rectangle")
 B.A3=new A.b_(null,null,null,null,null,B.G7,B.y)
 B.aO=new A.x(1,0.10588235294117647,0.30980392156862746,0.5411764705882353,B.h)
 B.aX=new A.x(1,0.1803921568627451,0.42745098039215684,0.7058823529411765,B.h)
-B.nE=s([B.aO,B.aX],t.t_)
-B.G6=new A.hb(B.cS,B.dH,B.ba,B.nE,null,null)
+B.nF=s([B.aO,B.aX],t.t_)
+B.G6=new A.hb(B.cS,B.dH,B.ba,B.nF,null,null)
 B.A4=new A.b_(null,null,null,B.ik,null,B.G6,B.y)
 B.e=new A.x(1,1,1,1,B.h)
 B.BU=new A.x(0.08235294117647059,0,0,0,B.h)
@@ -79188,7 +79188,7 @@ B.KC=new A.f(0,-2)
 B.Ag=new A.bQ(0,B.ak,B.BU,B.KC,16)
 B.Ib=s([B.Ag],t.V)
 B.A5=new A.b_(B.e,null,null,null,B.Ib,null,B.y)
-B.G8=new A.hb(B.bJ,B.f4,B.ba,B.nE,null,null)
+B.G8=new A.hb(B.bJ,B.f4,B.ba,B.nF,null,null)
 B.A6=new A.b_(null,null,null,null,null,B.G8,B.y)
 B.cY=new A.x(1,0.6901960784313725,0.22745098039215686,0.10196078431372549,B.h)
 B.I8=s([B.cY,B.t],t.t_)
@@ -79660,13 +79660,13 @@ B.l1=new A.Ml(null,B.fz,B.e,B.CM,B.CP,B.fz,!1,B.VT)
 B.bP=new A.q6(B.l1,null,null,null,null,null,null,null,null)
 B.b6=new A.FV(0,"base")
 B.iG=new A.FV(1,"elevated")
+B.HK=s([],t.Yz)
+B.mq=new A.jy("Caja de 6 porciones","Ese sabor que te transporta directo a la cocina de abuela. Hecha a mano, con ingredientes frescos y el secreto que solo el tiempo ense\xf1a.","40.000","assets/rellena.jpg","\ud83c\udf5b","",B.HK)
 B.Dc=new A.h3("Ajo","\ud83e\uddc4")
 B.Db=new A.h3("Miel Mostaza","\ud83c\udf6f")
 B.Dd=new A.h3("Picante","\ud83c\udf36\ufe0f")
 B.H0=s([B.Dc,B.Db,B.Dd],t.Yz)
-B.mq=new A.jy("Porci\xf3n de Rellena con papa","Una sola porci\xf3n\u2026 pero cargada de recuerdos.Ese sabor inconfundible de la cocina de abuela, preparado a mano con ingredientes frescos y el toque especial que solo los a\xf1os perfeccionan.","7.000","assets/porcion_rellena.jpg","\ud83c\udf56","\xbfCon qu\xe9 salsa la quieres? \ud83e\uded9",B.H0)
-B.HK=s([],t.Yz)
-B.mr=new A.jy("Caja de 6 porciones","Ese sabor que te transporta directo a la cocina de abuela. Hecha a mano, con ingredientes frescos y el secreto que solo el tiempo ense\xf1a.","40.000","assets/rellena.jpg","\ud83c\udf5b","",B.HK)
+B.mr=new A.jy("Porci\xf3n de Rellena con papa","Una sola porci\xf3n\u2026 pero cargada de recuerdos.Ese sabor inconfundible de la cocina de abuela, preparado a mano con ingredientes frescos y el toque especial que solo los a\xf1os perfeccionan.","7.000","assets/porcion_rellena.png","\ud83c\udf56","\xbfCon qu\xe9 salsa la quieres? \ud83e\uded9",B.H0)
 B.CW=new A.VK(1,"latency")
 B.CX=new A.vv(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.CY=new A.vw(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -80133,6 +80133,7 @@ B.Ky=new A.f(0,12)
 B.Ad=new A.bQ(0,B.ak,B.BX,B.Ky,32)
 B.H7=s([B.Ad],t.V)
 B.nA=s(["Inicio","Especialidades","Certificado"],t.s)
+B.nB=s([B.mr,B.mq],A.ae("v<jy>"))
 B.au=new A.e_(0,"icon")
 B.aE=new A.e_(1,"input")
 B.a3=new A.e_(2,"label")
@@ -80146,14 +80147,14 @@ B.bI=new A.e_(9,"counter")
 B.c5=new A.e_(10,"container")
 B.Ha=s([B.au,B.aE,B.a3,B.aL,B.aM,B.aN,B.a0,B.az,B.bs,B.bI,B.c5],A.ae("v<e_>"))
 B.Ic=new A.iI("en","US")
-B.nB=s([B.Ic],t.ss)
+B.nC=s([B.Ic],t.ss)
 B.VZ=new A.kx(0,0)
 B.W3=new A.kx(1,0.05)
 B.W1=new A.kx(3,0.08)
 B.W2=new A.kx(6,0.11)
 B.W0=new A.kx(8,0.12)
 B.W_=new A.kx(12,0.14)
-B.nC=s([B.VZ,B.W3,B.W1,B.W2,B.W0,B.W_],A.ae("v<kx>"))
+B.nD=s([B.VZ,B.W3,B.W1,B.W2,B.W0,B.W_],A.ae("v<kx>"))
 B.Hi=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.zN=new A.F4(2,"outer")
 B.lZ=new A.x(0.09803921568627451,0,0,0,B.h)
@@ -80174,7 +80175,7 @@ B.OM=new A.eO("Bandeja Paisa","Frijoles, chicharr\xf3n, chorizo, huevo frito, ar
 B.ON=new A.eO("Almuerzo Casero","Sopa del d\xeda + seco con prote\xedna a elecci\xf3n, arroz, ensalada fresca y jugo natural. Hecho con amor cada d\xeda.","\ud83e\udd58","$18.000")
 B.OP=new A.eO("Sancocho de Gallina","Receta de abuela. Gallina criolla con papa, yuca, pl\xe1tano y cilantro fresco. Un abrazo caliente en cada cucharada.","\ud83c\udf72","$22.000")
 B.OR=new A.eO("Combo Familiar","20 alitas BBQ + 2 bandejas paisas completas + 4 jugos naturales. El combo perfecto para reuniones y domingos en familia.","\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66","$95.000")
-B.nD=s([B.OQ,B.OO,B.OM,B.ON,B.OP,B.OR],A.ae("v<eO>"))
+B.nE=s([B.OQ,B.OO,B.OM,B.ON,B.OP,B.OR],A.ae("v<eO>"))
 B.F0=new A.bZ(63477,"MaterialIcons",null,!1)
 B.F7=new A.bZ(983303,"MaterialIcons",null,!1)
 B.Hr=s([B.F0,B.F7,B.ni],A.ae("v<bZ>"))
@@ -80207,8 +80208,7 @@ B.Ms=new A.ab(0.63903989,0.07759639)
 B.M8=new A.ab(0.66416338,0.0734653)
 B.M5=new A.ab(0.68675338,0.06974996)
 B.Ml=new A.ab(0.70678034,0.06529512)
-B.nF=s([B.Mp,B.Mo,B.Mb,B.Me,B.Mn,B.M4,B.M9,B.Mc,B.M7,B.Mk,B.Ms,B.M8,B.M5,B.Ml],A.ae("v<+(J,J)>"))
-B.nG=s([B.mq,B.mr],A.ae("v<jy>"))
+B.nG=s([B.Mp,B.Mo,B.Mb,B.Me,B.Mn,B.M4,B.M9,B.Mc,B.M7,B.Mk,B.Ms,B.M8,B.M5,B.Ml],A.ae("v<+(J,J)>"))
 B.HA=s(["click","scroll"],t.s)
 B.Ao=new A.pz()
 B.eF=new A.Jt(1,"page")
