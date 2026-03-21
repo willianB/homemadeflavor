@@ -76062,7 +76062,7 @@ r=A.V(o).j("X<1,h3>")
 r=A.W(new A.X(o,new A.ach(q),r),r.j("ap.E"))
 A.jk(a,A.at9(p,s,q.f.a.a,r))},
 O(a){var s,r,q=this,p=null,o=q.a.c,n=A.bg(24),m=A.vb(B.ik,A.qr(o.d,new A.acj(),B.cU,220,1/0)),l=A.a2(217,B.ay.n()>>>16&255,B.ay.n()>>>8&255,B.ay.n()&255),k=A.bg(20),j=t.p
-k=A.m0(B.c7,A.c([m,A.Ip(p,A.b0(p,A.am("Plato del d\xeda \xb7 Lunes",p,p,p,A.be(11,B.e,1.5,B.bR),p,p),B.m,p,p,new A.b_(l,p,p,k,p,p,B.y),p,p,p,B.DO,p,p,p),p,p,14,p,14,p)],j),B.a5,B.dx)
+k=A.m0(B.c7,A.c([m,A.Ip(p,A.b0(p,A.am("Plato del d\xeda \xb7 Viernes",p,p,p,A.be(11,B.e,1.5,B.bR),p,p),B.m,p,p,new A.b_(l,p,p,k,p,p,B.y),p,p,p,B.DO,p,p,p),p,p,14,p,14,p)],j),B.a5,B.dx)
 l=A.c([A.bT(A.c([A.am(o.e,p,p,p,B.SS,p,p),B.eP,A.ct(A.am(o.a,p,p,p,A.dk(26,p,1.1),p,p),1)],j),B.A,B.p,B.u),B.hL,A.am(o.b,p,p,p,A.be(14,B.a2,1.6,B.l),p,p),B.hM,A.am("$"+o.c,p,p,p,A.dk(32,B.t,1.1),p,p)],j)
 if(o.w.length!==0)B.b.P(l,A.c([B.Ou,A.b0(p,p,B.m,B.dT,p,p,p,1,p,p,p,p,p),B.kB,new A.Cn(o,q.e,q.gBX(),p)],j))
 l.push(B.hM)
@@ -76116,7 +76116,7 @@ r=A.V(o).j("X<1,h3>")
 r=A.W(new A.X(o,new A.acb(q),r),r.j("ap.E"))
 A.jk(a,A.at9(p,s,q.f.a.a,r))},
 O(a){var s,r,q=this,p=null,o=q.a.c,n=A.bg(28),m=A.vb(B.zP,A.qr(o.d,new A.acd(),B.cU,p,p)),l=A.a2(217,B.ay.n()>>>16&255,B.ay.n()>>>8&255,B.ay.n()&255),k=A.bg(20),j=t.p
-k=A.ct(A.m0(B.c7,A.c([m,A.Ip(p,A.b0(p,A.am("Plato del d\xeda \xb7 Lunes",p,p,p,A.be(12,B.e,1.5,B.bR),p,p),B.m,p,p,new A.b_(l,p,p,k,p,p,B.y),p,p,p,B.DS,p,p,p),p,p,18,p,18,p)],j),B.a5,B.yI),4)
+k=A.ct(A.m0(B.c7,A.c([m,A.Ip(p,A.b0(p,A.am("Plato del d\xeda \xb7 Viernes",p,p,p,A.be(12,B.e,1.5,B.bR),p,p),B.m,p,p,new A.b_(l,p,p,k,p,p,B.y),p,p,p,B.DS,p,p,p),p,p,18,p,18,p)],j),B.a5,B.yI),4)
 l=A.c([A.bT(A.c([A.am(o.e,p,p,p,B.QC,p,p),B.dv,A.ct(A.am(o.a,p,p,p,A.dk(32,p,1.1),p,p),1)],j),B.A,B.p,B.u),B.eQ,A.am(o.b,p,p,p,A.be(15,B.a2,1.65,B.l),p,p),B.kB,A.am("$"+o.c,p,p,p,A.dk(38,B.t,1.1),p,p)],j)
 if(o.w.length!==0)B.b.P(l,A.c([B.kB,A.b0(p,p,B.m,B.dT,p,p,p,1,p,p,p,p,p),B.dw,new A.Cn(o,q.e,q.gBX(),p)],j))
 l.push(B.hM)
