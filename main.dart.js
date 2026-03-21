@@ -23581,7 +23581,7 @@ be(a,b,c,d){return A.aHa().$4$color$fontSize$fontWeight$height(b==null?B.ay:b,a,
 jk(a,b){return A.aGV(a,b)},
 aGV(a,b){var s=0,r=A.O(t.H),q=1,p=[],o,n,m
 var $async$jk=A.P(function(c,d){if(c===1){p.push(d)
-s=q}while(true)switch(s){case 0:n=A.j7("https://wa.me/573217707182?text="+A.Dt(2,b==null?"\xa1Hola! Quiero hacer un pedido \ud83d\ude0b":b,B.ab,!1),0,null)
+s=q}while(true)switch(s){case 0:n=A.j7("https://wa.me/573126127844?text="+A.Dt(2,b==null?"\xa1Hola! Quiero hacer un pedido \ud83d\ude0b":b,B.ab,!1),0,null)
 q=3
 s=9
 return A.R(A.amH(n),$async$jk)
