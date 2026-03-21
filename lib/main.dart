@@ -102,7 +102,7 @@ const dailyDishes = [
     available: true,
     name: 'Porción de Rellena con papa',
     emoji: '🍖',
-    tag: 'Plato del día · Viernes',
+    tag: 'Plato del día · Sábado',
     price: '7.000',
     description:
      'Una sola porción… pero cargada de recuerdos.'
@@ -117,7 +117,7 @@ const dailyDishes = [
     available: true,
     name: 'Caja de 6 porciones',
     emoji: '🍛',
-    tag: 'Plato del día · Viernes',
+    tag: 'Plato del día · Sábado',
     price: '40.000',
     description:
         'Ese sabor que te transporta directo a la cocina de abuela. '
@@ -625,7 +625,7 @@ class _HomePageState extends State<HomePage>
           Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
             _St(emoji: '⭐', value: '4.9', label: 'Calificación'),
             _vDiv(),
-            _St(emoji: '🚀', value: '45 min', label: 'Entrega'),
+            _St(emoji: '🚀', value: 'Rápida', label: 'Entrega'),
             _vDiv(),
             _St(emoji: '❤️', value: '500+', label: 'Pedidos'),
             _vDiv(),
