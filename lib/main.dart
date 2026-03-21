@@ -107,7 +107,7 @@ const dailyDishes = [
     description:
      'Una sola porción… pero cargada de recuerdos.'
         'Ese sabor inconfundible de la cocina de abuela, preparado a mano con ingredientes frescos y el toque especial que solo los años perfeccionan.',
-    img: 'assets/porcion_rellena.jpg',
+    img: 'assets/porcion_rellena.png',
     optionLabel: '¿Con qué salsa la quieres? 🫙',
     options: [
       DishOption(name: 'Ajo',          emoji: '🧄'),
