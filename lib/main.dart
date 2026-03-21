@@ -123,7 +123,7 @@ const dailyDishes = [
         'Ese sabor que te transporta directo a la cocina de abuela. '
         'Hecha a mano, con ingredientes frescos y el secreto que solo el tiempo enseña.',
     img: 'assets/rellena_caja.png',
-    optionLabel: '',
+    optionLabel: '¿Con qué salsa la quieres? 🫙',
     options: [
       DishOption(name: 'Ají de piña',          emoji: '🌶️'),
     ],
@@ -1056,7 +1056,7 @@ class _DailyCardMobileState extends State<_DailyCardMobile> {
               textInputAction: TextInputAction.done,
               style: Tx.b(14, color: C.darkBrown),
               decoration: InputDecoration(
-                hintText: 'Dirección de entrega (opcional)',
+                hintText: 'Dirección de entrega',
                 hintStyle: Tx.b(14, color: C.textSec.withOpacity(0.6)),
                 prefixIcon: const Icon(Icons.location_on_outlined,
                     color: C.terracotta, size: 20),
@@ -1255,7 +1255,7 @@ class _DailyCardDesktopState extends State<_DailyCardDesktop> {
                     textInputAction: TextInputAction.done,
                     style: Tx.b(14, color: C.darkBrown),
                     decoration: InputDecoration(
-                      hintText: 'Dirección de entrega (opcional)',
+                      hintText: 'Dirección de entrega',
                       hintStyle:
                           Tx.b(14, color: C.textSec.withOpacity(0.6)),
                       prefixIcon: const Icon(Icons.location_on_outlined,
